@@ -1,0 +1,11 @@
+﻿  Initialization.cpp
+  Source.cpp
+  Generating Code...
+  LINK : C:\Users\roshall\source\repos\Assignment11\Debug\Assignment11.exe not found or not built by the last incremental link; performing full link
+Source.obj : error LNK2005: "public: int __thiscall People::getAge(void)" (?getAge@People@@QAEHXZ) already defined in Initialization.obj
+Source.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall People::getColor(void)" (?getColor@People@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in Initialization.obj
+Source.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall People::getName(void)" (?getName@People@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in Initialization.obj
+Source.obj : error LNK2005: "public: void __thiscall People::setAge(int)" (?setAge@People@@QAEXH@Z) already defined in Initialization.obj
+Source.obj : error LNK2005: "public: void __thiscall People::setColor(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setColor@People@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Initialization.obj
+Source.obj : error LNK2005: "public: void __thiscall People::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setName@People@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) already defined in Initialization.obj
+C:\Users\roshall\source\repos\Assignment11\Debug\Assignment11.exe : fatal error LNK1169: one or more multiply defined symbols found
